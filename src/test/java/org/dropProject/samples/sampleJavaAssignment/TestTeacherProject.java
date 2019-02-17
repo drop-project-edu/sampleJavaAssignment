@@ -1,10 +1,11 @@
-package pt.ulusofona.deisi.dropProject.sampleJavaAssignment;
+package org.dropProject.samples.sampleJavaAssignment;
 
-import org.junit.*;
+import org.junit.Test;
+
 import static org.junit.Assert.assertEquals;
 
 // in Drop Project, all test classes must begin with "Test"
-public class TestProject {
+public class TestTeacherProject {
 
     @Test
     public void testFindMax() {

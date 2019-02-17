@@ -1,4 +1,4 @@
-package pt.ulusofona.deisi.dropProject.sampleJavaAssignment;
+package org.dropProject.samples.sampleJavaAssignment;
 
 public class Main {
 
