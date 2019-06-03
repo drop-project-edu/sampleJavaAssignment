@@ -24,9 +24,9 @@
 
     <!-- Checks for whitespace                               -->
     <!-- See http://checkstyle.sf.net/config_whitespace.html -->
-    <module name="FileTabCharacter">
+    <!--<module name="FileTabCharacter">
         <property name="eachLine" value="true"/>
-    </module>
+    </module>-->
 
     <module name="TreeWalker">
         <!--<module name="OuterTypeFilename"/>-->
@@ -240,9 +240,9 @@
         <!--<module name="SingleLineJavadoc">-->
             <!--<property name="ignoreInlineTags" value="false"/>-->
         <!--</module>-->
-        <!--<module name="EmptyCatchBlock">-->
+        <module name="EmptyCatchBlock">
             <!--<property name="exceptionVariableName" value="expected"/>-->
-        <!--</module>-->
+        </module>
         <!--<module name="CommentsIndentation"/>-->
 
         <!-- disallow System.exit() because it breaks tests -->
