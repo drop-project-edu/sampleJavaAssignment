@@ -16,4 +16,17 @@ public class TestTeacherProject {
     public void testFindMaxWithNull() {
         Main.findMax(null);
     }
+
+    @Test
+    public void testFindMaxAllNegative() {
+        assertEquals(-1, Main.findMax(new int[]{-7, -5, -3, -1}));
+        assertEquals(-3, Main.findMax(new int[]{-7, -5, -3, -99}));
+    }
+
+    @Test
+    public void testFindMaxNegativeAndPositive() {
+        assertEquals(3, Main.findMax(new int[]{-7, -5, 3, -1}));
+        assertEquals(5, Main.findMax(new int[]{-7, 5, -3, -99}));
+    }
+
 }
